@@ -1,0 +1,284 @@
+
+  .logoText {
+    color:black;
+    font-size: x-large;
+    font-family: 'Showcard Gothic';
+  }
+  
+  .margin {
+    margin-top: 50px;
+  }
+  
+  @media (min-width: 992px) {
+  
+    .bgImgHome {
+      /* The image used */
+      background-image: url("/static/images/home.jpg"), linear-gradient(rgba(5,5,10,0.5),rgba(5,5,10,0.5));
+      background-blend-mode: overlay;
+      position: relative;
+      /* Set a specific height */
+      min-height: 700px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .loginSignup {
+        /* The image used */
+        background-image: url("/static/images/login.jpg"), linear-gradient(rgba(5,5,10,0.7),rgba(5,5,10,0.7));
+        background-blend-mode: overlay;
+        position: relative;
+        /* Set a specific height */
+        min-height: 1050px;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+  .aboutComp {
+    /* The image used */
+    background-image: url("/static/images/about.jpg"), linear-gradient(rgba(5,5,10,0.7),rgba(5,5,10,0.7));
+    background-blend-mode: overlay;
+    position: relative;
+    /* Set a specific height */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .contactUsComp {
+    /* The image used */
+    background-image: url("/static/images/contactus.jpg"), linear-gradient(rgba(5,5,10,0.8),rgba(5,5,10,0.8));
+    position: relative;
+    background-blend-mode: overlay;
+  
+    /* Set a specific height */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+    
+  .thankyou {
+    /* The image used */
+    background-image: url("/static/images/thankyou.jpg"), linear-gradient(rgba(29, 29, 37, 0.8),rgba(28, 28, 34, 0.8));
+    background-blend-mode: overlay;
+    position: relative;
+    /* Set a specific height */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+    .textOnImg {
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Old English Text MT';
+    }
+    .headerText {
+      color:black;
+      font-size: large;
+      font-family: 'Forte';
+    }
+  
+}
+    
+  
+  @media (min-width: 481px) and (max-width: 991px) {
+  
+    .bgImgHome {
+      /* The image used */
+      background-image: url("/static/images/home.jpg"), linear-gradient(rgba(5,5,10,0.5),rgba(5,5,10,0.5));
+      background-blend-mode: overlay;
+      position: relative;
+      /* Set a specific height */
+      min-height: 650px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .loginSignup {
+        /* The image used */
+        background-image: url("/static/images/login.jpg"), linear-gradient(rgba(5,5,10,0.5),rgba(5,5,10,0.5));
+        background-blend-mode: overlay;
+        position: relative;
+        /* Set a specific height */
+        min-height: 650px;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+  .aboutComp {
+    /* The image used */
+    background-image: url("/static/images/about.jpg"), linear-gradient(rgba(5,5,10,0.7),rgba(5,5,10,0.7));
+    background-blend-mode: overlay;
+    position: relative;
+    /* Set a specific height */
+    min-height: 650px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .contactUsComp {
+    /* The image used */
+    background-image: url("/static/images/contactus.jpg"), linear-gradient(rgba(5,5,10,0.8),rgba(5,5,10,0.8));
+    position: relative;
+    background-blend-mode: overlay;
+  
+    /* Set a specific height */
+    min-height: 650px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+    
+  .thankyou {
+    /* The image used */
+    background-image: url("/static/images/thankyou.jpg"), linear-gradient(rgba(29, 29, 37, 0.8),rgba(28, 28, 34, 0.8));
+    background-blend-mode: overlay;
+    position: relative;
+    /* Set a specific height */
+    min-height: 650px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+    .textOnImg {
+    color: aliceblue;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Old English Text MT';
+    }
+    .headerText {
+      color:black;
+      font-size: large;
+      font-family: 'Forte';
+    }
+  
+}
+    
+  @media (max-width: 480px) {
+  
+    .bgImgHome {
+      /* The image used */
+      background-image: url("/static/images/home.jpg"), linear-gradient(rgba(5,5,10,0.5),rgba(5,5,10,0.5));
+      background-blend-mode: overlay;
+      position: relative;
+      /* Set a specific height */
+      min-height: 450px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .loginSignup {
+        /* The image used */
+        background-image: url("/static/images/login.jpg"), linear-gradient(rgba(5,5,10,0.5),rgba(5,5,10,0.5));
+        background-blend-mode: overlay;
+        position: relative;
+        /* Set a specific height */
+        min-height: 450px;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+  .aboutComp {
+    /* The image used */
+    background-image: url("/static/images/about.jpg"), linear-gradient(rgba(5,5,10,0.7),rgba(5,5,10,0.7));
+    background-blend-mode: overlay;
+    position: relative;
+    /* Set a specific height */
+    min-height: 450px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .contactUsComp {
+    /* The image used */
+    background-image: url("/static/images/contactus.jpg"), linear-gradient(rgba(5,5,10,0.8),rgba(5,5,10,0.8));
+    position: relative;
+    background-blend-mode: overlay;
+  
+    /* Set a specific height */
+    min-height: 450px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+    
+  .thankyou {
+    /* The image used */
+    background-image: url("/static/images/thankyou.jpg"), linear-gradient(rgba(29, 29, 37, 0.8),rgba(28, 28, 34, 0.8));
+    background-blend-mode: overlay;
+    position: relative;
+    /* Set a specific height */
+    min-height: 450px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+    .textOnImg {
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+    font-family: 'Old English Text MT';
+    }
+    .headerText {
+      color:black;
+      font-size: large;
+      font-family: 'Forte';
+    }
+  
+}
