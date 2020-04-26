@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Cookie from 'js-cookie';\nimport { cookieName } from '../../config/Config';\nexport const setCookie = key => {\n  Cookie.set(cookieName, key, {\n    expires: 30\n  });\n};\nexport const deleteCookie = () => {\n  Cookie.remove(cookieName);\n};","map":null,"metadata":{},"sourceType":"module"}

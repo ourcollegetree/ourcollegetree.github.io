@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport ThanksComp from '../components/contact-us/ContactUsReplyComp';\nimport Layout from '../components/common/Layout';\n\nconst ThankYou = () => __jsx(React.Fragment, null, __jsx(Layout, null, __jsx(ThanksComp, null)));\n\nexport default ThankYou;","map":null,"metadata":{},"sourceType":"module"}

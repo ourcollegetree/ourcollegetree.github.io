@@ -1,0 +1,1 @@
+{"ast":null,"code":"var baseUrl = 'https://harsha90.pythonanywhere.com/api';\nvar Api = {\n  userLogin: \"\".concat(baseUrl, \"/auth/login/\"),\n  contactUs: \"\".concat(baseUrl, \"/contact/\"),\n  userDetail: \"\".concat(baseUrl, \"/auth/user/\")\n};\nexport default Api;","map":null,"metadata":{},"sourceType":"module"}

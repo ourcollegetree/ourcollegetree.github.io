@@ -1,0 +1,1 @@
+{"ast":null,"code":"const baseUrl = 'https://harsha90.pythonanywhere.com/api';\nconst Api = {\n  userLogin: `${baseUrl}/auth/login/`,\n  contactUs: `${baseUrl}/contact/`,\n  userDetail: `${baseUrl}/auth/user/`\n};\nexport default Api;","map":null,"metadata":{},"sourceType":"module"}
